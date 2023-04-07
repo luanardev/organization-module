@@ -1,0 +1,28 @@
+{
+    "name": "luanardev/organization-module",
+    "type": "laravel-module",
+    "description": "Organization Module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Simpokolwe",
+            "email": "bsimpokolwe@luanar.ac.mw"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lumis\\Organization\\Providers\\OrganizationServiceProvider"
+            ],
+            "aliases": {
+                "Organization": "Lumis\\Organization\\Facades\\Organization",
+                "FinancialConfig": "Lumis\\Organization\\Facades\\FinancialConfig"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lumis\\Organization\\": ""
+        }
+    }
+}
