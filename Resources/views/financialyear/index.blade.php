@@ -26,7 +26,7 @@
 
                     <livewire:organization::financial-year.current-financial-year />
 
-                    <div class="card card-outline card-danger">
+                    <div class="card card-outline card-dark">
                         <div class="card-header">
                             <div class="card-title">Financial Year History</div>
                         </div>
