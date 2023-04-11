@@ -40,6 +40,7 @@ class UserCampus
     }
 
     /**
+     * @param null $user
      * @return mixed
      */
     public static function get($user=null):mixed
